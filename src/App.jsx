@@ -14,11 +14,10 @@ export default function App() {
 
         <main className="max-w-6xl mx-auto px-6 md:px-8 py-12">
           <Routes>
-            {/* Main homepage route */}
-            <Route path="/" element={<Home />} />
+  <Route path="/" element={<Home />} />
+  <Route path="/locations/:slug" element={<LocationPage />} />
+</Routes>
 
-            {/* Placeholder for now — will add location pages next */}
-          </Routes>
         </main>
 
         {/* Footer */}
